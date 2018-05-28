@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   console.log('----users---')
-  res.render('users', { title: 'Flower' });
+  res.render('user', { title: 'Flower' });
   next();
 });
 
