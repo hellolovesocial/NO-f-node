@@ -8,7 +8,6 @@ app.use(function (req, res, next) {
   next();
 });
 
-// 'GET books/:id'に対するmiddleware
 app.get('/:id', function (req, res, next) {
   console.log('----books/:id-----')
   next();
